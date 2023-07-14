@@ -1,0 +1,595 @@
+body{
+  font-family: "Nunito";
+  
+}
+/* product0 */
+
+.product0{
+  display: flex;
+  margin:3rem;
+
+}
+
+header img{
+  width: 2rem;
+  opacity: 0.7;
+}
+.product0 .textContiner{
+  
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--dark-primary, #2A254B);
+}
+.product0 .textContiner .mainText{
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  gap: 3rem;
+}
+.product0 .textContiner .mainText h2{
+  color: var(--white, #FFF);
+    font-family: "Playfair Display";
+    font-size: 32px;
+    font-style: normal;
+    width: 25rem;
+    font-weight: 400;
+
+}
+.product0 .textContiner .mainText button{
+  border: none;
+  background: rgba(249, 249, 249, 0.15);
+  color: white;
+  padding: 16px 32px;
+  font-family: monospace;
+
+}
+.product0 .textContiner p{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2rem;
+  letter-spacing: 2px;
+}
+button{
+  cursor: pointer;
+}
+/* fin product0 */
+/* start nav bar */
+header .headNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0 1rem;
+
+}
+header .headNav h4{
+  color: #22202E;
+font-family: 'Nunito';
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+header .bottomNav ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  
+}
+header .bottomNav ul li {
+  color: #726E8D;
+font-family: "Nunito";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.wh{
+  color: var(--dark-primary, #2A254B);
+
+/* Headings / H3 */
+margin-top: 6rem;
+margin-bottom: 3rem;
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 33.6px */
+}
+.features{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-right: 2rem;
+  margin-left: 3rem;
+}
+.features .itemFeautures h3{
+  color: var(--dark-primary, #2A254B);
+
+/* Headings / H4 */
+
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 28px */
+}
+.features .itemFeautures p{
+  color: var(--dark-primary, #2A254B);
+
+/* Body/Medium */
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+.listings{
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0rem ;
+
+}
+h2{
+  color: #2A254B;
+
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  margin: 2rem;
+}
+.listings h4{
+  color: var(--dark-primary, #2A254B);
+
+/* Headings / H4 */
+
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 28px */
+}
+.listings h5{
+  color: var(--dark-primary, #2A254B);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 27px */
+}
+.button button
+{
+  border: none;
+    position: relative;
+    left: 45%;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--light-grey, #F9F9F9);
+    font-size: 13px;
+    margin-bottom: 6rem;
+  
+}
+.emailSignup{
+  border: 3px dotted #1514145e;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 6rem;
+    margin-top: 2rem;
+    width: 70%;
+    margin-left: 11rem;
+    background-color: white;
+    padding-bottom: 4rem;
+    margin-bottom: 7rem;
+}
+.emailSignup h1{
+  color: var(--dark-primary, #2A254B);
+text-align: center;
+
+/* Headings / H1 */
+
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 50.4px */
+}
+.emailSignup p {
+  color: var(--dark-primary, #2A254B);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+.emailSignup .butt{
+  display: flex;
+  gap: 0rem;
+}
+.emailSignup .butt input{
+  border: none;
+  display: flex;
+padding: 17px 205px 17px 32px;
+align-items: center;
+flex: 1 0 0;
+align-self: stretch;
+background: var(--light-grey, #F9F9F9);
+border-radius: 12px 0px  0px 12px ;
+}
+.emailSignup .butt input:hover{
+  border: 2px dotted rgb(121, 121, 148);
+}
+
+.emailSignup .butt button{
+  border: none;
+width: 120px;
+align-items: flex-start;
+background-color: #2A254B;
+border: none;
+color: white;
+border-radius: 0px 12px 12px 0px;
+}
+.emailSignup .butt button:hover{
+  opacity:0.7 ;
+  transition: 0.5s;
+}
+
+
+
+.email{
+  background-color:#F7F7F7;
+}
+.lastsection{
+  display: flex;
+  
+}
+.lastsection .textContiner{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 4rem;
+
+}
+
+
+
+
+.lastsection .textContiner h3{
+  color: #2A254B;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 33.6px */
+
+}
+.lastsection .textContiner button{
+  border: none;
+  display: flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+background: var(--light-grey, #F9F9F9);
+}
+.lastsection .textContiner button:hover{
+  opacity: 0.7;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+footer{
+  background: var(--dark-primary, #2A254B);
+
+}
+
+.lastsection .textContiner p{
+  color: #505977;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.mainFooter{
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem;
+  color: white;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  padding: 3rem 2rem 0rem 0rem;
+  margin-left: 0rem;
+}
+.mainFooter .fg h1{
+  color: var(--white, #FFF);
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.fg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0rem;
+
+  
+}
+.fg ul{ 
+  list-style-type:none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+}
+.fg h4{
+  color: var(--white, #FFF);
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hk input{
+  border: none;
+  display: flex;
+padding: 17px 360px 17px 32px;
+align-items: center;
+flex: 1 0 0;
+align-self: stretch;
+background: rgba(255, 255, 255, 0.15);
+color: white;
+border-radius: 12px 0px  0px 12px ;
+}
+.hk button{
+  display: flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+background: var(--white, #FFF);
+border-radius: 0px 12px 12px 0px;
+border: none;
+
+}
+.butt{
+  display: flex;
+}
+hr{
+  
+    width: 93%;
+}
+.footer{
+  margin-left: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+
+.footer .icon{
+  margin-right: 3rem;
+  margin-left:3rem ;
+}
+a{
+  text-decoration: none;
+  color: #505977;
+}
+@media (max-width: 428px) {
+  .bigDiv{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .bottomNav{
+    display: none;
+  }
+  .product0 img{
+    display: none;
+  }
+  .product0{
+    content: "";
+  }
+  .product0 .textContiner {
+  
+  width: auto;
+  margin: -34px;
+}
+.product0 .textContiner .mainText h2 {
+
+  font-size: 20px;
+  
+  width: 25rem;
+  font-weight: 400;
+  width: auto;
+  margin: 0px;
+  
+
+  
+}
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-right: 0;
+  margin-left: 1rem;
+}
+.listings{
+  display: flex;
+  flex-wrap: wrap;
+}
+.listings  .prod img{
+  width: 140px;
+}
+.prod{
+  width: 140px;
+  
+}
+.button button{
+   
+    margin: -145px;
+    width: 20rem;
+}
+.email{
+  background-color: white;
+}
+.emailSignup {
+   
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 6rem;
+    margin-top: 2rem;
+    width: auto;
+    margin-left: 0rem;
+    margin-right: auto;
+    border: none;
+    margin-bottom: -5rem;
+}
+.emailSignup .butt input {
+  border: none;
+  display: flex;
+  padding: 17px 25px 17px 16px;
+    align-items: center;
+  flex: 1 0 0;
+  align-self: stretch;
+  background: var(--light-grey, #F9F9F9);
+  border-radius: 12px 0px 0px 12px;
+}
+.lastsection{
+  
+  display: flex;
+  flex-direction: column;
+  margin-left: -2rem;
+
+}
+.lastsection .textContiner button {
+  border: none;
+  display: flex;
+  padding: 18px 69px 22px 64px;
+  align-items: flex-start;
+  gap: 11px;}
+  .imgcontiner img{
+    margin-top: -2rem;
+    width: 267px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .mainFooter{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .fg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: -webkit-left;
+    gap: 0rem;
+    width: 42%;
+}
+  .hk{
+
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 0px 12px 12px 0px;
+border: none;
+
+  }
+  .hk input{
+    border: none;
+    display: flex;
+    padding: 13px 24px 17px 7px;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    border-radius: 12px 0px 0px 12px;
+
+  }
+}
+@media (max-width:1235px) {
+  .listings{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .listings  .prod img{
+    width: auto;
+  }
+
+  
+}
+@media  (max-width:1020px){
+  .bigDiv{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .product0{
+    display: flex;
+    flex-direction: column;
+  }
+  .lastsection{
+    display: flex;
+    flex-direction: column;
+  }
+  .mainFooter{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
+}
+@media (max-width:732px) {
+  .email{
+    background-color: white;
+  }
+  .emailSignup {
+     
+      border-radius: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 6rem;
+      margin-top: 2rem;
+      width: auto;
+      margin-left: 0rem;
+      margin-right: auto;
+      border: none;
+      margin-bottom: -5rem;
+  }
+  .emailSignup .butt input {
+    border: none;
+    display: flex;
+    padding: 17px 25px 17px 16px;
+      align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: var(--light-grey, #F9F9F9);
+    border-radius: 12px 0px 0px 12px;
+  }
+  .bottomNav{
+    display: none;
+  }
+  footer {
+    width: fit-content;
+}
+}
+.footer {
+  width: %;
+}
