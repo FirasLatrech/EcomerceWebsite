@@ -1,0 +1,137 @@
+.headNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.continer{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  gap: 2rem;
+  margin-top: 6rem;
+}
+.headerContiner{
+  display: flex;
+  flex-direction: row;
+  justify-content:  space-between;
+
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.imgaTextContiner{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.textContiner{
+  width: 40%;
+}
+.numberStock{
+  height: 40px;
+  position: relative;
+  left: -13rem;
+  
+  width: 54px;
+  text-align: center;
+  width: 122px;
+  padding: 13px 5px 0px 0px;
+  background: var(--light-grey, #F9F9F9);
+  border-radius: 12px;
+}
+.textContiner h5{
+  margin-top: 6px;
+  color: var(--dark-primary, #2A254B);
+  font-family: 'Nunito';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.textContiner p{
+  color: var(--dark-primary, #2A254B);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.payment{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 6rem;
+  
+}
+.payment h4{
+  color: var(--primary, #4E4D93);
+text-align: right;
+
+/* Body/Small */
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+}
+
+.payment span{
+  color: var(--dark-primary, #2A254B);
+text-align: right;
+
+/* Headings / H3 */
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 33.6px */
+}
+.payment .sub{
+  color: var(--primary, #4E4D93);
+text-align: right;
+
+/* Headings / H4 */
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 28px */
+}
+.paymentContinerText{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+.payment button{
+  border: none;
+  color: white;
+  display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: var(--dark-primary, #2A254B);
+}
+@media (max-width:729px) {
+  .finalPrise{
+    display: none;
+  }
+  .numberStock{
+    position: relative;
+    left: 13px;
+  }
+  .mainFooter{
+  flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  footer{
+    margin-right: 2rem;
+  }
+}
+button:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.5s;
+}
